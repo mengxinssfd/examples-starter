@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <title>page list</title>
+  </head>
+  <body>
+    <ul></ul>
+
+    <script>
+      const pages = ['page1:test'];
+
+      const ul = document.querySelector('ul');
+      ul.innerHTML = pages.reduce((prev, cur, index) => {
+        return prev + `<li><a href="/pages/page-${index + 1}/index.html">${cur}</a></li>`;
+      }, '');
+    </script>
+  </body>
+</html>
