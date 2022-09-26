@@ -30,3 +30,7 @@ pnpm init-pkg
 
 1. [`pages`](pages)目录下根据需要选择页面类型, 并添加相应的 page 目录
 2. 在根目录下的[`index.html`](index.html)添加 page 入口
+
+### 6.更新[`LICENSE`](LICENSE)
+
+[`package.json`](package.json)里面有`license`, 根目录下也有个文件[`LICENSE`](LICENSE)需要更新。
