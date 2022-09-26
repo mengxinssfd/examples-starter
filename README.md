@@ -26,4 +26,7 @@ pnpm init-pkg
 
 ### 4.更改[`CHANGELOG.md`](CHANGELOG.md)
 
-### 5.[`pages`](pages)目录下根据需要选择页面类型
+### 5.添加页面
+
+1. [`pages`](pages)目录下根据需要选择页面类型, 并添加相应的 page 目录
+2. 在根目录下的[`index.html`](index.html)添加 page 入口
