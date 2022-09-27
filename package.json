@@ -9,7 +9,7 @@
     "test": "jest",
     "cov": "jest --coverage",
     "prepare": "husky install",
-    "husky-msg-init": "husky add .husky/pre-commit \"npx lint-staged --allow-empty \"$1\"\"&yarn husky add .husky/commit-msg \"npx commitlint --edit \"$1\"\"",
+    "husky-msg-init": "husky add .husky/pre-commit \"npx lint-staged --allow-empty \"$1\"\"&husky add .husky/commit-msg \"npx commitlint --edit \"$1\"\"",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "ts-check": "tsc --noEmit",
     "lint-check": "eslint pages",
