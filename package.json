@@ -17,7 +17,7 @@
     "check-all": "run-p ts-check lint-check prettier-check"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json}": [
+    "pages/**/*.{js,jsx,ts,tsx,json,html,md}": [
       "prettier --write",
       "eslint",
       "git add"
