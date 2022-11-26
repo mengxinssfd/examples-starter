@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "一个基于pnpm monorepo、vue3、vite、多页的快速启动模版，主要用于写一些例子等",
   "scripts": {
-    "init-pkg": "node scripts/init-pkg.js",
+    "init-pkg": "esno scripts/init-pkg.ts",
     "dev": "vite --port 8080",
     "check-deps": "ncu",
     "test": "jest",
@@ -42,6 +42,7 @@
     "@commitlint/config-conventional": "^17.1.0",
     "@types/jest": "^29.0.3",
     "@types/node": "^18.11.9",
+    "@types/semver": "^7.3.13",
     "@typescript-eslint/eslint-plugin": "^5.38.0",
     "@typescript-eslint/parser": "^5.38.0",
     "@vitejs/plugin-vue": "^3.1.0",
