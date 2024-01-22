@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^20.5.7
     version: 20.5.7
   '@types/semver':
-    specifier: ^7.3.13
-    version: 7.3.13
+    specifier: ^7.5.6
+    version: 7.5.6
   '@typescript-eslint/eslint-plugin':
     specifier: ^5.38.0
     version: 5.38.0(@typescript-eslint/parser@5.38.0)(eslint@8.48.0)(typescript@5.1.6)
@@ -90,8 +90,8 @@ devDependencies:
     specifier: ^1.69.5
     version: 1.69.5
   semver:
-    specifier: ^7.3.7
-    version: 7.3.7
+    specifier: ^7.5.4
+    version: 7.5.4
   ts-jest:
     specifier: ^29.1.1
     version: 29.1.1(@babel/core@7.19.1)(jest@29.7.0)(typescript@5.1.6)
@@ -1437,8 +1437,8 @@ packages:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
     dev: true
 
-  /@types/semver@7.3.13:
-    resolution: {integrity: sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==}
+  /@types/semver@7.5.6:
+    resolution: {integrity: sha512-dn1l8LaMea/IjDoHNd9J52uBbInB796CDffS6VdIxvqYCPSG0V0DzHp76GpaWnlhg88uYyPbXCDIowa86ybd5A==}
     dev: true
 
   /@types/stack-utils@2.0.1:
@@ -1478,7 +1478,7 @@ packages:
       eslint: 8.48.0
       ignore: 5.2.0
       regexpp: 3.2.0
-      semver: 7.3.7
+      semver: 7.5.4
       tsutils: 3.21.0(typescript@5.1.6)
       typescript: 5.1.6
     transitivePeerDependencies:
