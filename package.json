@@ -39,7 +39,7 @@
   "homepage": "https://github.com/mengxinssfd/examples-starter#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
-    "@commitlint/config-conventional": "^17.1.0",
+    "@commitlint/config-conventional": "^19.0.3",
     "@types/jest": "^29.5.11",
     "@types/node": "^20.5.7",
     "@types/semver": "^7.5.6",
